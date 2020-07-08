@@ -1,0 +1,73 @@
+.wrapper {
+    padding-top: 20px;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filters {
+    margin-left: auto;
+}
+
+.cost-ul {
+    list-style:none;
+    padding: 0; 
+}
+
+.cards {
+    width: 600px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.cart-cost {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(158, 159, 167);
+}
+
+.img-logo {
+    width: 130px;
+    height: 35px;
+    padding: 5px;
+}
+
+.costs-texts {
+    color: white;
+    padding: 5px;
+}
+
+.costs {
+    text-align: right;
+    font-size: 20px;
+}
+
+.direction {
+    padding: 6px;
+    font-size: 20px;
+}
+
+.times {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.company {
+    padding-top: 35px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.choose-button {
+    background-image: linear-gradient(to bottom left, rgb(255, 125, 3), rgb(249, 122, 7), rgb(242, 118, 12), rgb(236, 115, 16), rgb(229, 112, 20), rgb(223, 109, 25), rgb(216, 105, 29), rgb(210, 102, 34), rgb(203, 99, 38), rgb(197, 96, 42), rgb(190, 92, 47), rgb(184, 89, 51));
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
